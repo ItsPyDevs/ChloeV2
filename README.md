@@ -1,4 +1,4 @@
-# Bot Discord d'Apprentissage Automatique
+# Bot Discord ChloéV2
 
 Ce bot Discord est un projet Python qui permet à un bot Discord de répondre aux messages des utilisateurs en fonction des correspondances stockées dans une base de données SQLite. Les utilisateurs peuvent enseigner au bot de nouvelles réponses en utilisant la commande `&learn` suivie d'une phrase clé et d'une réponse. Le bot peut également sauvegarder la base de données sous un nom spécifié avec la commande `&save`.
 
