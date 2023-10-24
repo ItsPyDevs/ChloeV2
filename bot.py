@@ -84,6 +84,6 @@ async def on_message(message):
         else:
             await message.channel.send("Erreur 404 : Réponse non trouvée.")
 
-bot.run("MTEyMzY2MTI0MDkyMTc3MjAzMg.GjAlPY.N1U2Hufj4JXRhgjUiYZl0Hx4Fuk2AZ_f17ZU2U")
+bot.run("BOT_TOKEN")
 
 conn.close()
