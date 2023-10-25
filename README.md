@@ -12,8 +12,8 @@ Ce bot Discord est un projet Python qui permet à un bot Discord de répondre au
 - Les modules Python `discord.py` et `sqlite3`.
 
 ## Installation et configuration :
-1. Clonez ce référentiel (repository) sur votre système local.
-2. Installez les dépendances requises en exécutant `pip install discord.py` et `pip install sqlite3` dans votre terminal.
+1. Clonez ce repository
+2. Installez les dépendances requises en exécutant `pip install discord.py` dans votre terminal.
 3. Créez un bot Discord sur le [portail des développeurs Discord](https://discord.com/developers/applications).
 4. Copiez le token du bot et remplacez `"BOT_TOKEN"` dans le code du bot par ce token.
 5. Exécutez le bot en utilisant la commande `python bot.py` dans le terminal.
