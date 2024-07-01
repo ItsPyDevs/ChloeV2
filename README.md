@@ -1,25 +1,25 @@
-# Bot Discord ChloéV2
+# Discord Bot ChloéV2
 
-Ce bot Discord est un projet Python qui permet à un bot Discord de répondre aux messages des utilisateurs en fonction des correspondances stockées dans une base de données SQLite. Les utilisateurs peuvent enseigner au bot de nouvelles réponses en utilisant la commande `&learn` suivie d'une phrase clé et d'une réponse. Le bot peut également sauvegarder la base de données sous un nom spécifié avec la commande `&save`.
+This Discord bot is a Python project that enables a Discord bot to respond to user messages based on matches stored in an SQLite database. Users can teach the bot new responses using the `&learn` command followed by a key phrase and a response. The bot can also save the database under a specified name with the `&save` command.
 
-## Fonctionnalités principales :
-- Enseigner au bot de nouvelles réponses à l'aide de la commande `&learn`.
-- Répondre aux messages des utilisateurs en fonction des correspondances stockées dans la base de données.
-- Sauvegarder la base de données sous un nom spécifié avec la commande `&save`.
+## Main Features:
+- Teach the bot new responses using the `&learn` command.
+- Respond to user messages based on matches stored in the database.
+- Save the database under a specified name with the `&save` command.
 
-## Prérequis :
-- Python 3.x installé.
-- Les modules Python `discord.py` et `sqlite3`.
+## Requirements:
+- Python 3.x installed.
+- Python modules `discord.py` and `sqlite3`.
 
-## Installation et configuration :
-1. Clonez ce repository
-2. Installez les dépendances requises en exécutant `pip install discord.py` dans votre terminal.
-3. Créez un bot Discord sur le [portail des développeurs Discord](https://discord.com/developers/applications).
-4. Copiez le token du bot et remplacez `"BOT_TOKEN"` dans le code du bot par ce token.
-5. Exécutez le bot en utilisant la commande `python bot.py` dans le terminal.
+## Installation and Configuration:
+1. Clone this repository.
+2. Install the required dependencies by running `pip install discord.py` in your terminal.
+3. Create a Discord bot on the [Discord Developer Portal](https://discord.com/developers/applications).
+4. Copy the bot token and replace `"BOT_TOKEN"` in the bot's code with this token.
+5. Run the bot using the command `python bot.py` in the terminal.
 
-## Utilisation :
-- Pour ajouter une nouvelle clé, utilisez la commande `&learn PHRASECLé=PHRASE RéPONSE`.
-- Pour demander au bot en utilisant une phrase clé, il vous suffit de saisir la phrase clé dans le chat.
+## Usage:
+- To add a new key, use the command `&learn KEY_PHRASE=RESPONSE_PHRASE`.
+- To query the bot using a key phrase, simply type the key phrase in the chat.
 
-N'hésitez pas à personnaliser ce bot en fonction de vos besoins. Amusez-vous bien !
+Feel free to customize this bot to suit your needs. Have fun!
